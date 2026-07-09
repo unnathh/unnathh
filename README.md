@@ -135,7 +135,7 @@ My interests include <b>Application Security</b>, <b>SOC Operations</b>,
 
 # 📫 Connect With Me
 
-<p align="left">
+<p align="center">
 
 <a href="https://www.linkedin.com/in/unnath/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -150,12 +150,11 @@ My interests include <b>Application Security</b>, <b>SOC Operations</b>,
 </a>
 
 </p>
-
 ---
 
 <p align="center">
 
-![](https://komarev.com/ghpvc/?username=github.com/unnathh&style=for-the-badge&color=blue)
+![](https://komarev.com/ghpvc/?username=unnathh&style=for-the-badge&color=blue)
 
 </p>
 
