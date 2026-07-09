@@ -150,15 +150,6 @@ My interests include <b>Application Security</b>, <b>SOC Operations</b>,
 </a>
 
 </p>
----
-
-<p align="center">
-
-![](https://komarev.com/ghpvc/?username=unnathh&style=for-the-badge&color=blue)
-
-</p>
-
----
 
 <h3 align="center">
 
