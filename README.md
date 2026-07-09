@@ -1,14 +1,16 @@
-<!-- Animated Banner -->
+<!-- ======================= -->
+<!--        BANNER           -->
+<!-- ======================= -->
+
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:0F172A,50:2563EB,100:06B6D4&text=UNNATH&fontColor=ffffff&fontSize=55&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20|%20Application%20Security%20|%20Python%20Developer&descAlignY=60"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=UNNATH&fontColor=ffffff&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20|%20Application%20Security%20|%20Python%20Developer&descAlignY=60"/>
 </p>
 
-<!-- Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3500&pause=1000&color=00C4FF&center=true&vCenter=true&width=850&lines=Cybersecurity+Enthusiast;Application+Security;Python+Developer;Building+Real-World+Security+Projects;Always+Learning+Something+New" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1200&color=00C4FF&center=true&vCenter=true&width=900&lines=Cybersecurity+Enthusiast;Application+Security;Python+Developer;Building+Real-World+Security+Projects"/>
 </p>
 
-<h1 align="center">Hi 👋, I'm Unnath</h1>
+<h1 align="center">Hi 👋 I'm Unnath</h1>
 
 <h3 align="center">
 Computer Science Engineering Student • Cybersecurity Enthusiast • Python Developer
@@ -18,8 +20,18 @@ Computer Science Engineering Student • Cybersecurity Enthusiast • Python Dev
 I enjoy building practical cybersecurity solutions that solve real-world problems.
 My interests include <b>Application Security</b>, <b>SOC Operations</b>,
 <b>Cloud Security</b>, and <b>Secure Software Development</b>.
-I believe the best way to learn security is by building, breaking, and improving real systems.
 </p>
+
+---
+
+# 🚀 About Me
+
+- 🎓 B.E. Computer Science Engineering (Graduating 2027)
+- 🔐 Passionate about Cybersecurity & Application Security
+- 🐍 Python Backend Developer
+- ⚡ Interested in Security Engineering, SOC, DevSecOps & AI Security
+- 📚 Learning through projects, CTFs and open-source
+- 🚀 Looking for Internship opportunities in Cybersecurity
 
 ---
 
@@ -37,7 +49,7 @@ I believe the best way to learn security is by building, breaking, and improving
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge)
 
 ### Cybersecurity
 
@@ -53,62 +65,60 @@ I believe the best way to learn security is by building, breaking, and improving
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-### Operating System
+### Operating Systems
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 
 ---
 
-# 🚀 About Me
-
-- 🎓 B.E. Computer Science Engineering (Graduating 2027)
-- 🔐 Passionate about Cybersecurity & Secure Software Development
-- 🐍 Python Developer focused on backend and security automation
-- 🌐 Interested in Application Security, SOC, Cloud Security & DevSecOps
-- 📚 Learning through hands-on projects, labs, CTFs and open-source
-- 💡 Goal: Build security products that make software safer
-
----
-
 # 🌟 Featured Projects
 
 ## 🛡️ LLM Prompt Injection Firewall
+**Python • FastAPI • Regex • Heuristics**
 
-Enterprise-grade middleware that detects, scores, sanitizes and blocks Prompt Injection attacks before requests reach an LLM.
-
-**Highlights**
-
-- Prompt Injection Detection
-- Risk Scoring Engine
-- Prompt Sanitization
-- Policy-based Blocking
-- FastAPI Backend
-- OpenAI-Compatible API
+- Built an OpenAI-compatible middleware proxy that intercepts LLM API requests and applies a heuristic-based Threat Scoring Engine (0–100) to allow, warn, sanitize, or block traffic before it reaches the downstream model.
+- Implemented multiple prompt injection detection modules covering instruction override, indirect prompt attacks, jailbreak signatures, encoded payloads (Base64, Hex, ROT13), Unicode obfuscation, and homoglyph attacks.
+- Added entropy analysis and structural heuristics (keyword density, script switching, bracket nesting) to detect obfuscated prompts without relying on machine learning.
 
 ---
 
-## 🔍 Web Vulnerability Scanner
+## 🪞 Edge-AI Smart Mirror for Health & Wellness Monitoring
+**Raspberry Pi 4B • Python • OpenCV • MediaPipe • TensorFlow Lite**
 
-Python-based web application scanner capable of detecting common security vulnerabilities through automated testing.
+- Developed an edge-deployed health monitoring system using Raspberry Pi 4B and a USB camera.
+- Used OpenCV and MediaPipe for real-time posture analysis and visual health monitoring.
+- Integrated TensorFlow Lite for on-device inference, eliminating cloud dependency.
 
 ---
 
-## 📡 Network Intrusion Detection System
+## 🎙️ Kanyarasi — AI-Powered Rural Voice Preservation Platform
+**React (Vite) • FastAPI • Whisper ASR • Gemini/OpenAI APIs • Firebase**
 
-Network monitoring and packet analysis solution built with Python for detecting suspicious traffic and security events.
+- Built a full-stack platform to preserve endangered rural and regional languages.
+- Records, transcribes, translates, and summarizes speech using Whisper ASR and Gemini/OpenAI APIs.
+- Stores recordings and metadata using Firebase Firestore.
+
+---
+
+## 🏥 QR Wristband Ward Communication System
+**Python • Flask • SQLite • QR Code**
+
+- Designed a hospital ward communication platform where QR wristbands uniquely identify patients.
+- Nursing staff can instantly access patient information through a Flask + SQLite backend.
+- Built as a functional hackathon prototype.
 
 ---
 
 # 📚 Currently Learning
 
 - Application Security
-- SSDLC
+- API Security
+- Secure Software Development Lifecycle (SSDLC)
 - Cloud Security
 - Docker
 - Kubernetes
-- API Security
-- Advanced Python
+- AI Security
 
 ---
 
@@ -117,51 +127,9 @@ Network monitoring and packet analysis solution built with Python for detecting 
 - Application Security Engineer
 - Security Engineer
 - SOC Analyst
-- Security Automation
 - DevSecOps
 - Cloud Security
-
----
-
-# 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&row=1&column=6"/>
-
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-
-</p>
+- AI Security
 
 ---
 
@@ -169,15 +137,15 @@ Network monitoring and packet analysis solution built with Python for detecting 
 
 <p align="left">
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<a href="https://www.linkedin.com/in/unnath/">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="mailto:unnath4@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -185,14 +153,16 @@ Network monitoring and packet analysis solution built with Python for detecting 
 
 ---
 
-# 👀 Profile Views
+<p align="center">
 
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=blue)
+![](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=blue)
+
+</p>
 
 ---
 
-<p align="center">
+<h3 align="center">
 
-### ⭐ "Building secure software through practical engineering."
+⭐ Building secure software through practical engineering.
 
-</p>
+</h3>
